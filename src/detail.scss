@@ -1,0 +1,52 @@
+@import './reset.scss';
+
+
+$메인칼라 : black;
+
+.wow-enter {
+ opacity: 0;
+}
+.wow-enter-active{
+ opacity: 1;
+ transition: all 500ms;
+}
+
+
+.red{
+    color : $메인칼라;
+}
+
+.my-alert{
+    background: #ffe591;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    color: red;    
+}
+
+
+.my-alert p {
+    margin-bottom: 0;
+
+}
+
+
+/*
+div.container h4 {
+    color : blue;
+}
+
+div.container {
+ h4{
+    color: blue;
+ }   
+ p {
+    color : green;
+ }
+}
+
+
+
+*/
